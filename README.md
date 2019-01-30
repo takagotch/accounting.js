@@ -83,11 +83,11 @@ accounting.formatNumber(5318008, {
   thousand : " "
 });
 
-accounting.toFixed();
-().toFixed();
+accounting.toFixed(0.615, 2);
+(0.615).toFixed(2);
 
-accounting.unformat();
-accounting.unformat();
+accounting.unformat("GBP € 12,345,678.90");
+accounting.unformat("€ 1.000.000,00", ",");
 ```
 
 ```
